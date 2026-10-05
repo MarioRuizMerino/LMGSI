@@ -1,0 +1,35 @@
+.titulo {
+    color: red;
+}
+
+.trabajador {
+    background-color: gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Aplica a todos los descendientes h2 del primer trabajador (psudoclase nth-of-type()) */ 
+.trabajador:nth-of-type(1) h2{
+    color: blue;
+}
+
+/* Aplica a todos los descendientes h2 del segundo trabajador (psudoclase nth-of-type()) */ 
+.trabajador:nth-of-type(2) h2{
+    color: green;
+}
+
+
+.datos-personales {
+    border: 2px black solid;
+    border-bottom: 3px black solid;
+}
+
+.estudios {
+    border: 5px black double;
+}
+
+.texto-subrayado {
+    text-decoration: underline;
+}
