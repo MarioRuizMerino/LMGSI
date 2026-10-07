@@ -1,0 +1,70 @@
+/* General */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header, footer {
+    background-color: cornflowerblue;
+}
+
+.titulo {
+    margin: 0;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+/* Main */
+main {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+section {
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+hr{
+    border: 1px solid cornflowerblue;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+ul li::marker, ol li::marker  {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+dt {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+/* Footer */
+Footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
