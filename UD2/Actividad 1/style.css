@@ -41,6 +41,15 @@ hr{
     margin-bottom: 30px;
 }
 
+.consola {
+    font-family: monospace;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
 h3 {
     font-size: 20px;
 }
