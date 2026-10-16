@@ -1,38 +1,102 @@
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
+*{
+    font-family: 'Arial', sans-serif;
 }
 
-th {
-    background-color: rgb(71, 71, 71);
-    color: white;
-    font-size: 16px;
-}
-
-td, th {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-p, h1, li {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h1 {
+body {
     color: #333;
-    font-size: 20px;
-}
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
 
-h2 {
-    color: #666;
-    font-size: 16px;
-}
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        padding: 1rem;
 
-caption {
-    font-size: 16px;
-    color: #000;
-}
 
-.gris {
-    background-color: #c0c0c0;
+        h1{
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    h1,h2 {
+        font-family: 'Georgia', serif;
+        color: #2C3E50;
+    }
+
+    main{
+
+        background-color: #FFF;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        max-width: 500px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 2rem;
+
+
+        img {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        ul{
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+
+        .tabla-exitos table {
+            border-collapse: collapse;
+            border: 1px solid #DDD;
+            margin: 0 auto 20px;
+        }
+
+        .tabla-exitos th{
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            border: 1px solid #DDD;
+        }
+
+        table{
+            align-self: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        td, th{
+            padding: 10px;
+            text-align: left;
+            white-space: nowrap;
+            border: 1px solid #DDD;
+        }
+
+        a{
+            color: #E74C3C;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover{
+                color: #C0392B;
+            }
+        }
+    }
+
+    footer{
+        color: #7F8C8D;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
 }
