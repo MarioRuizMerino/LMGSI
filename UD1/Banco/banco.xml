@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "banco.tdt">
+<banco>
+    <sucursal id="1">
+        <nombre>Banco Mario</nombre>
+        <direccion>
+            <calle>C/ 1</calle>
+            <ciudad>Málaga</ciudad>
+            <codigo_postal>29001</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+
+        <cuentas_corrientes>
+            <cuenta_corriente id="1">
+                <numero>123456789</numero>
+                <titular>John Doe</titular>
+                <saldo>1000</saldo>
+            </cuenta_corriente>
+            <cuenta_corriente id="2">
+                <numero>987654321</numero>
+                <titular>Jane Doe</titular>
+                <saldo>2000</saldo>
+            </cuenta_corriente>
+        </cuentas_corrientes>
+
+    </sucursal>
+</banco>

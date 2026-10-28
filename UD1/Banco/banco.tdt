@@ -1,0 +1,15 @@
+﻿<!ELEMENT banco (sucursal+)>
+<!ELEMENT sucursal (nombre, direccion, cuentas_corrientes)>
+<!ATTLIST sucursal id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (calle, ciudad, codigo_postal, pais?)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cuentas_corrientes (cuenta_corriente+)>
+<!ELEMENT cuenta_corriente (numero, titular, saldo)>
+<!ATTLIST cuenta_corriente id CDATA #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT titular (#PCDATA)>
+<!ELEMENT saldo (#PCDATA)>
