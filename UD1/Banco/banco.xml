@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE banco SYSTEM "banco.tdt">
+<!DOCTYPE banco SYSTEM "banco.dtd">
 <banco>
     <sucursal id="1">
         <nombre>Banco Mario</nombre>
