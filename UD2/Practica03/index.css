@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    header{
+        justify-items: center;
+    }
+
+    .logo{
+        display: flex;
+        border: 3px solid rebeccapurple;
+        border-radius: 10px;
+        min-width: 250px;
+        justify-content: center;
+        color: ;
+    }
+
+    main{
+        flex: 1;
+    }
+}
