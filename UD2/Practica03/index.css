@@ -6,20 +6,141 @@ body{
     display: flex;
     flex-direction: column;
 
+    /* Cabecera */
     header{
         justify-items: center;
+        background-color: #111827;
+        align-items: center;
+        padding: 1rem;
+
+
+        .logo{
+            display: flex;
+            border: 3px solid rebeccapurple;
+            border-radius: 10px;
+            width: 300px;
+            height: 110px;
+            justify-content: center;
+            color: white;
+            background-color: #1F2937;
+
+            h1{
+                align-content: center;
+            }
+        }
     }
 
-    .logo{
-        display: flex;
-        border: 3px solid rebeccapurple;
-        border-radius: 10px;
-        min-width: 250px;
-        justify-content: center;
-        color: ;
-    }
 
+    /* Contenido principal */
     main{
         flex: 1;
+        padding: 2rem;
+
+        .formulario{
+            margin: 0 auto;
+            width: 460px;
+        }
+        form{
+            background-color: #F4F1ED;
+            color: midnightblue;
+            border: 9px solid #6A0DAD;
+            border-radius: 7px;
+            width: 460px;
+            padding: 0.5rem;
+
+            legend{
+                font-weight: bold;
+                color: darkred;
+            }
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 8px;
+
+            input, label{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .radio{
+                flex-direction: column;
+                margin-left: 165px;
+            }
+
+            #presupuesto{
+                margin-left: 82px;
+            }
+
+            #nombre, #correo, #telefono, #plataforma, #producto, #cantidad, #fecha{
+                display: flex;
+                width: 200px;
+                margin-left: auto;
+            }
+            #fecha{
+                width: 203px;
+            }
+
+            .observacion, .imagen{
+                display: block;
+                label{
+                    margin-bottom: 5px;
+                }
+            }
+
+
+            textarea{
+                width: 400px;
+                min-height: 50px;
+            }
+
+            p, label, div{
+                display: flex;
+
+                margin: 0;
+                padding: 0;
+            }
+
+            div{
+                margin-bottom: 5px;
+            }
+            /* Botones */
+            .botones{
+               gap: 10px;
+                display: flex;
+                margin: 10px;
+                justify-content: center
+            }
+            button{
+                padding: 10px;
+            }
+        }
+
     }
+
+
+    /* Enlaces */
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /* Pie de página */
+    footer{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 5px;
+
+        img{
+            height: 48px;
+            width: 48px;
+        }
+
+        h3{
+            color: #F7c600;
+        }
+    }
+
 }
